@@ -10,7 +10,10 @@
 // ==/UserScript==
 
 function removeStyleCheck() {
-    document.getElementById("res-style-checkbox").checked = false;
+    checkbox = document.getElementById("res-style-checkbox");
+    if (toggleBox.checked == true) {
+        checkbox.click();
+    }
 }
 
 removeStyleCheck();

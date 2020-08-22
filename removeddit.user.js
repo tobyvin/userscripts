@@ -24,6 +24,7 @@ function createLink(list, url) {
     var anchor = document.createElement('a');
     anchor.innerText = 'Removeddit';
     anchor.href = 'https://removeddit.com' + url.pathname + url.search;
+    anchor.target = "_blank";
     li.appendChild(anchor);
     list.appendChild(li);
 }

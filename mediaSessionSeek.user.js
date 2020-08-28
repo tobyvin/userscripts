@@ -5,7 +5,7 @@
 // @author      tobyvin
 // @version     1.0.0
 // @updateURL   https://github.com/tobyvin/userscripts/raw/master/mediaSessionSeek.user.js
-// @match       *://youtube.com/*
+// @match       *://www.youtube.com/*
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

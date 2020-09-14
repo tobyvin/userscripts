@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name Cloud to Butt
-// @namespace cloudtobutt
+// @name        Cloud to Butt
+// @namespace   cloudtobutt
 // @description Replaces the text 'the cloud' with 'my butt', as well as 'cloud' with 'butt' in certain contexts. Ported from panicsteve's cloud-to-butt Chrome extension, and Hank's ports thereof.
-// @include *
-// @version 1.0.0
-// @grant none
-// @updateURL https://github.com/tobyvin/dotfiles/raw/master/userscripts/cloudtobutt.user.js
+// @author      tobyvin
+// @version     1.0.0
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/cloudtobutt.user.js
+// @include     *
+// @grant       none
 // ==/UserScript==
 
 walk(document.body);

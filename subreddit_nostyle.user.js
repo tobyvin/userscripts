@@ -4,8 +4,8 @@
 // @description Automatically disable subreddit styles
 // @author      tobyvin
 // @version     1.0.0
-// @updateURL   https://github.com/tobyvin/userscripts/raw/master/subreddit_nostyle.user.js
-// @match       *://*.reddit.com/r/*
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/subreddit_nostyle.user.js
+// @match       https://*.reddit.com/r/*
 // @grant       none
 // ==/UserScript==
 

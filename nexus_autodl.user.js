@@ -4,9 +4,8 @@
 // @description Skips "slow download" prompt when downloading mods from Nexusmods
 // @author      tobyvin
 // @version     1.0.0
-// @updateURL   https://github.com/tobyvin/userscripts/raw/master/nexus_autodl.user.js
-// @match       *://nexusmods.com/*
-// @match       https://www.nexusmods.com/fallout4/mods/10360?tab=files&file_id=40468&nmm=1
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/nexus_autodl.user.js
+// @match       https://nexusmods.com/*
 // @grant       none
 // ==/UserScript==
 

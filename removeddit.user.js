@@ -4,8 +4,8 @@
 // @description Adds link to reddit posts and comments to view in Removeddit
 // @author      tobyvin
 // @version     1.0.0
-// @updateURL   https://github.com/tobyvin/userscripts/raw/master/removeddit.user.js
-// @match       *://*.reddit.com/r/*
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/removeddit.user.js
+// @match       https://*.reddit.com/r/*
 // @grant       none
 // ==/UserScript==
 

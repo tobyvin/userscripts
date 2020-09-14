@@ -2,12 +2,12 @@
 // @name        Open in Steam
 // @namespace   steam
 // @description Changes install steam link to open in steam
-// @match       *://*.steampowered.com/*
-// @match       *://*.steamcommunity.com/*
-// @grant       none
-// @version     1.0
 // @author      tobyvin
-// @updateURL https://github.com/tobyvin/userscripts/raw/master/cloudtobutt.user.js
+// @version     1.0
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/openinsteam.user.js
+// @match       https://*.steampowered.com/*
+// @match       https://*.steamcommunity.com/*
+// @grant       none
 // ==/UserScript==
 
 var buttons = document.getElementsByClassName("header_installsteam_btn_content");

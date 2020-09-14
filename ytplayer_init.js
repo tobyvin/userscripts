@@ -4,8 +4,8 @@
 // @description Setup the YouTube video player on load.
 // @author      tobyvin
 // @version     1.4.1
-// @updateURL   https://github.com/tobyvin/userscripts/raw/master/ytplayer_init.user.js
-// @include     https://www.youtube.com/*
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/ytplayer_init.user.js
+// @match       https://www.youtube.com/*
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

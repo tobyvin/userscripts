@@ -4,8 +4,8 @@
 // @description Converts the Next and Prev media session actions into seek controls
 // @author      tobyvin
 // @version     1.0.0
-// @updateURL   https://github.com/tobyvin/userscripts/raw/master/mediaSessionSeek.user.js
-// @match       *://www.youtube.com/*
+// @updateURL   https://raw.githubusercontent.com/tobyvin/userscripts/master/mediaSessionSeek.user.js
+// @match       https://www.youtube.com/*
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

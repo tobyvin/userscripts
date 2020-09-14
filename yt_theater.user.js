@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        YouTube - Always Theater Mode
+// @name        YouTube Initial Setup
 // @namespace   youtube
-// @description Set the default viewing mode to Theater Mode.
+// @description Setup the YouTube video player on load.
 // @author      tobyvin
 // @version     1.4.1
 // @updateURL   https://github.com/tobyvin/userscripts/raw/master/yt_theater.user.js

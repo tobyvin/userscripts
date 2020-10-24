@@ -5,7 +5,7 @@
 // @author      tobyvin
 // @version     1.0.0
 // @updateURL   https://github.com/tobyvin/userscripts/raw/master/moodle_dl.user.js
-// @match       *://classes.cs.siue.edu/*
+// @match       https://classes.cs.siue.edu/*
 // @grant       none
 // ==/UserScript==
 

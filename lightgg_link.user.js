@@ -5,8 +5,8 @@
 // @author      tobyvin
 // @version     1.0.0
 // @updateURL   https://github.com/tobyvin/userscripts/raw/master/lightgg_link.user.js
-// @match       *://destinytracker.com/destiny-2/db/items/*
-// @match       *://www.light.gg/db/items/*
+// @match       https://destinytracker.com/destiny-2/db/items/*
+// @match       https://www.light.gg/db/items/*
 // @grant       none
 // ==/UserScript==  
 

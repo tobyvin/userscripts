@@ -10,6 +10,13 @@
 // @grant       none
 // ==/UserScript==
 
-jQuery(function () {
-    $("div:contains('Continue to Discord')").text("Close window").on("click", self.close());
+$(window).on("load", function () {
+    var old = $($("div:contains('Continue to Discord')").last().parent());
+    var button = $(document.createElement('div'))
+        .addClass($(old).attr("class"))
+        .text("Close window")
+        .on("click", function () {
+            self.close()
+        });
+    old.parent().replaceWith(button);
 })

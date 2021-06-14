@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        YouTube Initial Setup
-// @namespace   youtube
+// @namespace   tobyvin.com
 // @description Setup the YouTube video player on load.
 // @author      tobyvin
 // @version     1.4.1

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        discord_invite
-// @namespace   *
+// @namespace   tobyvin.com
 // @description Changes Continue to Discord link to Close Window link on discord invites
 // @author      tobyvin
 // @version     1.0.0

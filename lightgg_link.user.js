@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        LightGG Link
-// @namespace   destinytracker.com
+// @namespace   tobyvin.com
 // @description Adds link to DestinyTracker DB to view on Light.gg
 // @author      tobyvin
 // @version     1.0.0

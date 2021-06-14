@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        moodle_dl
-// @namespace   classes.cs.siue.edu
+// @namespace   tobyvin.com
 // @description Modifies the download folder link on moodle to work with ariaNG 
 // @author      tobyvin
 // @version     1.0.0

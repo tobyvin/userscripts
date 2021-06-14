@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Subreddit No Style
-// @namespace   reddit
+// @namespace   tobyvin.com
 // @description Automatically disable subreddit styles
 // @author      tobyvin
 // @version     1.0.0

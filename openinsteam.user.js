@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Open in Steam
-// @namespace   steam
+// @namespace   tobyvin.com
 // @description Changes install steam link to open in steam
 // @author      tobyvin
 // @version     1.0

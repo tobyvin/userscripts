@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Removeddit
-// @namespace   reddit
+// @namespace   tobyvin.com
 // @description Adds link to reddit posts and comments to view in Removeddit
 // @author      tobyvin
 // @version     1.0.0

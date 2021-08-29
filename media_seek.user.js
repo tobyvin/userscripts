@@ -12,6 +12,9 @@
     const seekStep = 5;
     var vid, waitHandle;
 
+    var seekBack = () => vid.currentTime = Math.max(0, vid.currentTime - seekStep);
+    var seekFwrd = () => vid.currentTime = Math.min(vid.duration, vid.currentTime + seekStep);
+
     const controller = () => {
         vid = document.querySelector('Video');
 
@@ -20,19 +23,8 @@
 
         clearInterval(waitHandle);
 
-        navigator.mediaSession.setActionHandler('previoustrack', seek);
-        navigator.mediaSession.setActionHandler('nexttrack', seek);
-    }
-
-    const seek = (details) => {
-        switch (details.action) {
-            case "nexttrack":
-                vid.currentTime = Math.min(vid.duration, vid.currentTime + seekStep);
-                break;
-            case "previoustrack":
-                vid.currentTime = Math.max(0, vid.currentTime - seekStep);
-                break;
-        }
+        navigator.mediaSession.setActionHandler('previoustrack', seekBack);
+        navigator.mediaSession.setActionHandler('nexttrack', seekFwrd);
     }
 
     const wait = () => {
@@ -40,6 +32,15 @@
         setTimeout(() => { clearInterval(waitHandle) }, 30000);
     }
 
-    window.addEventListener("load", wait);
+    switch (location.host) {
+        case 'www.netflix.com':
+            seekBack = () => document.querySelector('.button-nfplayerBackTen').click()
+            seekFwrd = () => document.querySelector('.button-nfplayerFastForward').click()
+            break;
+        case 'www.youtube.com':
+            window.addEventListener("yt-navigate-finish", wait);
+            break;
+    }
 
+    window.addEventListener("load", wait);
 })();
